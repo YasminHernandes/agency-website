@@ -54,6 +54,11 @@ p {
   color: var(--dark-primary);
 }
 
+a:hover, button:hover {
+  opacity: .8;
+  transition: opacity .3s ease;
+}
+
 body {
   font-family: "Jost";
   width: 100%;
